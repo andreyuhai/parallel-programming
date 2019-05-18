@@ -14,4 +14,4 @@ This diagram shows only the steps for sending 0th processor's messages to every 
 
 But for every other processor's message array these steps are repeated untill all messages has been received by their receiver, which in turn means every processor has filled their recvArr with the messages from all processors.
 
-[all to all personalized ring](https://github.com/andreyuhai/parallel-programming/blob/master/all-to-all-personalized-ring/diagram.png)
+![all to all personalized ring](https://github.com/andreyuhai/parallel-programming/blob/master/all-to-all-personalized-ring/diagram.png)
