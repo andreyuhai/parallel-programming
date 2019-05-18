@@ -1,4 +1,4 @@
 #PBS -l nodes=8:ppn=1
 #PBS -N cnt
 #PBS -j oe
-mpiexec ~/third_lab/3/mpi
+mpiexec ./mpi
