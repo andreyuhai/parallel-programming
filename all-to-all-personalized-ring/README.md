@@ -1,5 +1,15 @@
 ### All 2 All Personalized Ring
 
+Compile:
+
+`mpicc mpi.c -o mpi`
+
+Then submit the script:
+
+`qsub pbs.pbs`
+
+---
+
 In a ring network, each processor is creating an array of messages (sendArr[]) for all the processors (including itself).
 
 The first element of the array is always the message meant for the processor itself which initialized the array or for the processor which has received that array.
